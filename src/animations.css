@@ -47,6 +47,7 @@
 }      
 
 .fade-in {
+  width: 100%;
   animation-name: slideInDown;
   animation-duration: 1s;
 }

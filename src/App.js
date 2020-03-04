@@ -114,9 +114,9 @@ class App extends React.Component {
             <p>{this.state.liveTagline}</p>
             {!this.state.showActions ? null :
               <div className="button-group">
-                <button className="fade-in-button1" onClick={this.onButtonClick('portfolio')}>portfolio</button>
-                <button className="fade-in-button2" onClick={this.onButtonClick('about')}>about</button>
-                <button className="fade-in-button3" onClick={this.onButtonClick('employ')}>employment</button>
+                <button className="fade-in-button1 nav-button" onClick={this.onButtonClick('portfolio')}>portfolio</button>
+                <button className="fade-in-button2 nav-button" onClick={this.onButtonClick('about')}>about</button>
+                <button className="fade-in-button3 nav-button" onClick={this.onButtonClick('employ')}>employment</button>
               </div>
             }
           </div>
